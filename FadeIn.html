@@ -1,0 +1,23 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#diva").fadeIn();
+    $("#divb").fadeIn("slow");
+    $("#divc").fadeIn(2000);
+  });
+});
+</script>
+</head>
+<body>
+
+<button>Click Here!!</button><br>
+
+<div id="diva" style="width:90px;height:90px;display:none;background-color:red;"></div><br>
+<div id="divb" style="width:90px;height:90px;display:none;background-color:green;"></div><br>
+<div id="divc" style="width:90px;height:90px;display:none;background-color:#5f5f9b;"></div>
+
+</body>
+</html>
